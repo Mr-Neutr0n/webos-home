@@ -30,6 +30,6 @@ that the API accepted the request. Record successful playback, physical
 power-cycle tests, and software reboots as separate results.
 
 Before publishing captures or reports, remove addresses, account details,
-device identifiers, pairing material, and private paths. The demonstration's
-owner-approved first name is the only personal data intentionally included
-in the supplied media.
+device identifiers, pairing material, and private paths. The owner approved
+the rotating Hari, Adi, and Aadith greetings and the Bengaluru weather line
+in the demonstration media. Keep those visible when updating these captures.

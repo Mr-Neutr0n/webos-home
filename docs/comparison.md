@@ -3,8 +3,8 @@
 ![Stock and replacement Home](../media/comparison.jpg)
 
 These are actual display captures. The stock image has its hardware badge
-covered. The new image has the city label covered. The owner's first name
-appears with permission. The optional sample theme and app logos are shown
+covered. The new image retains the greeting and Bengaluru weather line with
+the owner's permission. The optional sample theme and app logos are shown
 under the [artwork notice](../NOTICE.md).
 
 | Area | Stock Home | Replacement |
@@ -21,11 +21,13 @@ under the [artwork notice](../NOTICE.md).
 [Animated preview, GIF](../media/home-demo.gif) ·
 [Full-room preview](../media/room-demo.mp4)
 
-The dashboard demo uses captured frames and compresses the real greeting
-cycle for viewing. The owner's first name is visible in 60% of dashboard
-frames. Other household greetings and the city are masked in public media.
-The full-room clip shows a separate actual-device capture. These clips do
-not measure display frame rate or app readiness.
+The dashboard demo shows all four character scenes: Naruto, Might Guy, Luffy,
+and Ace. It uses captured frames and compresses the real greeting cycle for
+viewing. Hari is visible in 60% of dashboard frames, with Adi and Aadith in
+the remaining frames. Every dashboard frame retains a name and the actual
+Bengaluru temperature and weather condition. The owner approved these details
+for publication. The full-room clip shows a separate actual-device capture.
+These clips do not measure display frame rate or app readiness.
 
 ## Measurements from the original project
 

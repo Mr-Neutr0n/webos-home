@@ -6,6 +6,9 @@ process still handles the remote and app launches.
 
 ![New Home screen captured from the TV](media/home-demo.gif)
 
+The demo cycles through all four character scenes and keeps the rotating
+greeting and Bengaluru weather visible, with the owner's permission.
+
 [Watch the device demo](media/home-demo.mp4) ·
 [Before and after](docs/comparison.md) · [Setup](docs/setup.md) ·
 [Root access](docs/root-access.md) · [Tailscale](docs/tailscale.md)
