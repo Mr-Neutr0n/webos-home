@@ -1,0 +1,9 @@
+[project]
+name = "webos-home"
+version = "0.1.0"
+description = "A reversible QML Home experiment for rooted webOS"
+requires-python = ">=3.10"
+license = "MIT"
+
+[tool.ruff]
+line-length = 100

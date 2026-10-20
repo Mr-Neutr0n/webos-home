@@ -1,0 +1,22 @@
+name: Bug report
+description: Report a tool or UI failure.
+body:
+  - type: textarea
+    id: platform
+    attributes:
+      label: Platform
+      description: webOS, SDK, firmware, host OS, Python, and Bun versions. Remove device identifiers.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps and result
+      description: Include the command, expected result, actual result, and recovery status. Remove private config and credentials.
+    validations:
+      required: true
+  - type: textarea
+    id: verification
+    attributes:
+      label: Verification
+      description: Output from bun run verify and any relevant redacted error.

@@ -1,0 +1,8 @@
+#!/bin/sh
+set -eu
+cd "$(dirname "$0")"
+python3 -B -m unittest discover -s tests -p 'test_*.py'
+bun tests/room.mjs
+node --check scripts/ssap.mjs
+sh -n scripts/tailscale-start.sh
+printf '%s\n' 'Verification passed. No TV connection was opened.'

@@ -1,0 +1,22 @@
+{
+  "ssh": {
+    "host": "tv.example.invalid",
+    "port": 22,
+    "user": "root",
+    "identity_file": "~/.secrets/webos-root",
+    "known_hosts_file": ".local/known_hosts"
+  },
+  "profile": {
+    "name": "webOS Hub 22, SDK 7.5.9, firmware 04.56.75",
+    "home_binary": "/usr/bin/com.webos.app.home",
+    "home_binary_sha256": "37088948fc9be636e9e5654a9b9fb8cc47ada348f8fa43245b4c8a4393f8083e",
+    "target": "/usr/palm/applications/com.webos.app.home/qml/UserInterfaceLayer/Containers/MainView_WEE.qml",
+    "stock_qml_sha256": "66aee43ae51fe7b0c70b3d3b3ea16605f49551c95159d67724abcaa424eb0db1"
+  },
+  "trial_seconds": 120,
+  "ssap": {
+    "url": "wss://tv.example.invalid:3001",
+    "certificate_sha256": "",
+    "client_key_file": "~/.secrets/webos-home-ssap.env"
+  }
+}

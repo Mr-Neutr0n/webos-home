@@ -1,0 +1,16 @@
+{
+  "name": "webos-home",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "verify": "./verify"
+  },
+  "engines": {
+    "bun": ">=1.2",
+    "node": ">=20"
+  },
+  "dependencies": {
+    "ws": "8.22.0"
+  }
+}
