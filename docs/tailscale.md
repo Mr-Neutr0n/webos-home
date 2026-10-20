@@ -16,6 +16,43 @@ All commands below use `webos-tv` as an example hostname or private SSH alias.
 Set it to your device locally. Keep the existing LAN root connection open while
 enrolling and testing. Do not run a second daemon if Tailscale is already installed.
 
+## Current installation status
+
+The original TV is already enrolled in the owner's tailnet as a standalone
+node. This was rechecked on 20 October 2026 through Tailscale SSH itself.
+The repository does not publish its real hostname, addresses, tailnet name,
+account, client keys, or enrolled state.
+
+| Check | Result on the existing installation |
+| --- | --- |
+| Daemon state | `Running`, node online, assigned tailnet address present |
+| Root login over Tailscale | Fresh `id -u` returned `0` |
+| Built-in Tailscale SSH | Enabled, `RunSSH: true` |
+| Tunnel | `tailscale0` present and kernel TUN available |
+| DNS takeover | Disabled |
+| Routes received from other nodes | Disabled |
+| Netfilter management | Off, required by this firmware |
+| Enrolled identity | Saved in private persistent storage |
+| Boot startup | Existing webOSbrew hook already installed |
+| Independent recovery | Existing LAN root SSH retained |
+
+Earlier tests also passed root login from two enrolled computers, file transfer,
+direct traffic in both directions, and a Tailscale daemon restart. This TV
+needs neither a gateway computer nor a public SSH port. Other enrolled clients
+connect to its own node, subject to the tailnet's network and SSH policy.
+The generic command is:
+
+```sh
+tailscale ssh root@webos-tv
+```
+
+Replace `webos-tv` with your own node name. Enrollment and SSH enablement are
+already complete on the original device. The sections below explain how to
+repeat the setup on a fresh device. Do not re-enroll a working installation to
+follow this guide. Actual access from an outside-home network and reachability
+while the TV is in standby remain untested. The TV needs power and an active
+network connection for remote administration.
+
 ## Download and verify
 
 Run on your computer from the repository root:

@@ -34,6 +34,23 @@ installer has local failure-path tests; its companion helpers passed device
 checks. It has not had a fresh end-to-end deployment. Keep that distinction
 when adapting it.
 
+## Current installation
+
+As of 20 October 2026, the original TV is rooted and enrolled in the owner's
+Tailscale network as its own node. Tailscale SSH is enabled. A fresh root
+login over the tailnet passed, and the node reported online. Persistent node
+state and boot startup are already configured. The separate LAN recovery SSH
+channel remains available.
+
+Root came through an installed overlay app and the JavaScript service
+launcher, followed by Homebrew Channel installation. The
+[root history](docs/root-access.md#how-this-system-obtained-root) records the
+exact mechanism, payload revision and hashes, failed alternative, persistence
+repair, and verification. The
+[Tailscale status and setup](docs/tailscale.md#current-installation-status)
+records enrollment, SSH, storage, boot behavior, and remaining test limits.
+Device names, network addresses, account details, and credentials stay private.
+
 ## What changes
 
 The installer places the replacement QML and assets under
