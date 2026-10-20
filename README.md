@@ -4,6 +4,17 @@ A small native Home screen for rooted webOS. An animated pixel room, a clock,
 a quote, and four app shortcuts replace the stock shelves. The existing Home
 process still handles the remote and app launches.
 
+## Before and after
+
+| Stock webOS Home | Custom native Home |
+| --- | --- |
+| ![Before: stock webOS shelves and app row](media/stock.jpg) | ![After: pixel room, quote, weather and four app shortcuts](media/home.jpg) |
+
+Same TV and native Home process. The hardware badge is covered in the stock
+capture.
+
+## Animated demo
+
 ![New Home screen captured from the TV](media/home-demo.gif)
 
 The demo cycles through all four character scenes and keeps the rotating
